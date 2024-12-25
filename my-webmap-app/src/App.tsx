@@ -5,6 +5,8 @@ import Map from "ol/Map";
 import View from "ol/View";
 import TileLayer from "ol/layer/Tile";
 import OSM from "ol/source/OSM";
+import "ol-ext/dist/ol-ext.css";
+import "ol-ext/dist/ol-ext.min.css";
 import Overlay from "ol-ext/control/Overlay";
 import Toggle from "ol-ext/control/Toggle";
 
@@ -58,7 +60,7 @@ const App: React.FC = () => {
           <i>ol.control.Overlay</i> peut être utilisé pour afficher un menu ou
           des informations au-dessus de la carte.
         </p>
-        <div className="data"></div>
+        <div className="data" />
       </div>
     </div>
   );
